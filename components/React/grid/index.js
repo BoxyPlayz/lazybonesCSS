@@ -11,5 +11,6 @@ export function Row(props) {
             display: "flex",
             flexDirection: "row",
             alignItems: "stretch",
+            flex: 1
         }, children: props.children }));
 }

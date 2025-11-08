@@ -20,6 +20,7 @@ export function Row(props: { children?: ReactNode }): ReactElement {
 				display: "flex",
 				flexDirection: "row",
 				alignItems: "stretch",
+				flex: 1
 			}}>
 			{props.children}
 		</div>
