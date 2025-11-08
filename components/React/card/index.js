@@ -8,5 +8,5 @@ export function Card(props) {
             height: "fit-content",
             padding: "4px",
             flexDirection: "column"
-        }, children: [_jsx("h3", { children: props.title }), props.description, _jsx("br", {}), props.children] }));
+        }, className: props.className, children: [_jsx("h3", { children: props.title }), props.description, props.description && _jsx("br", {}), props.children] }));
 }

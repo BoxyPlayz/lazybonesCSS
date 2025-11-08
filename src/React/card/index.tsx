@@ -1,9 +1,10 @@
-import { ReactElement, ReactNode } from "react";
+import React, { type ReactElement, type ReactNode } from "react";
 
 export function Card(props: {
     title: string, 
     description?: string,
-    children?: ReactNode
+    children?: ReactNode,
+    className?: string
 }): ReactElement {
     return(
     <div style={{
@@ -14,10 +15,11 @@ export function Card(props: {
         height: "fit-content",
         padding: "4px",
         flexDirection: "column"
-    }}>
+    }}
+			className={props.className}>
         <h3>{props.title}</h3>
         {props.description}
-        <br />
+        {props.description && <br />}
         {props.children}
     </div>
     )

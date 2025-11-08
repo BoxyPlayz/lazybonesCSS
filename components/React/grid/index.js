@@ -4,7 +4,7 @@ export function Column(props) {
             display: "flex",
             flexDirection: "column",
             flex: 1,
-        }, children: props.children }));
+        }, className: props.className, children: props.children }));
 }
 export function Row(props) {
     return (_jsx("div", { style: {
@@ -12,5 +12,5 @@ export function Row(props) {
             flexDirection: "row",
             alignItems: "stretch",
             flex: 1
-        }, children: props.children }));
+        }, className: props.className, children: props.children }));
 }

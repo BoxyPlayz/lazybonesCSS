@@ -1,7 +1,7 @@
 {
-  "homepage": "",
+  "homepage": "https://boxyplayz.github.io/lazybones/",
   "name": "lazybones-css",
-  "version": "1.2.1",
+  "version": "1.2.6",
   "description": "",
   "keywords": [
     "css",
@@ -14,7 +14,6 @@
   "license": "Apache-2.0",
   "author": "Boxy",
   "type": "module",
-  "main": "index.js",
   "scripts": {
     "prepare": "tsc"
   },
