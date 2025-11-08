@@ -1,0 +1,25 @@
+{
+  "name": "lazybones-css",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "css"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "g"
+  },
+  "license": "Apache-2.0",
+  "author": "Boxy",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  }
+}
